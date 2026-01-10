@@ -6,3 +6,9 @@ const app = express();
 app.listen(5000,()=>{
     console.log("connected to server");
 });
+
+//javascript tutorial
+
+//datatypes
+
+// var ,let and const
