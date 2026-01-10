@@ -13,11 +13,18 @@
 
 // var ,let and const
 
+// function userDetails(email, name, username) {
+//     console.log(`details are ${email},${name},${username}`);
+// }
 
 
-function userDetails(email, name, username) {
-    console.log(`details are ${email},${name},${username}`);
+// userDetails("ankitbarai641@gmail.com","Ankit Barai","Anni")
+
+//arrow functions
+
+let result = (name,marks)=>{
+    console,console.log(`name is ${name} and marks obtained is ${marks}`);
+    
 }
 
-
-userDetails("ankitbarai641@gmail.com","Ankit Barai","Anni")
+result("Ankit",90)
