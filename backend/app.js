@@ -1,11 +1,13 @@
-// const express = require('express');
-// const app = express();
+const express = require('express');
+const app = express();
+const db = require('./config/db');
+const userModel = require('./models/user.model');
 
 
 
-// app.listen(5000,()=>{
-//     console.log("connected to server");
-// });
+app.listen(5000,()=>{
+    console.log("connected to server");
+});
 
 //javascript tutorial
 
@@ -22,9 +24,9 @@
 
 //arrow functions
 
-let result = (name,marks)=>{
-    console,console.log(`name is ${name} and marks obtained is ${marks}`);
+// let result = (name,marks)=>{
+//     console,console.log(`name is ${name} and marks obtained is ${marks}`);
     
-}
+// }
 
-result("Ankit",90)
+// result("Ankit",90)
